@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "topic": "Array, Hash Map",
+    "url": "https://leetcode.com/problems/two-sum/"
+  },
+  {
+    "title": "Valid Anagram",
+    "difficulty": "Easy",
+    "topic": "String, Hash Map",
+    "url": "https://leetcode.com/problems/valid-anagram/"
+  },
+  {
+    "title": "Palindrome Number",
+    "difficulty": "Easy",
+    "topic": "Math",
+    "url": "https://leetcode.com/problems/palindrome-number/"
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "topic": "Array, Dynamic Programming",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+  },
+  {
+    "title": "Contains Duplicate",
+    "difficulty": "Easy",
+    "topic": "Array, Hash Set",
+    "url": "https://leetcode.com/problems/contains-duplicate/"
+  },
+  {
+    "title": "Merge Two Sorted Lists",
+    "difficulty": "Easy",
+    "topic": "Linked List, Recursion",
+    "url": "https://leetcode.com/problems/merge-two-sorted-lists/"
+  },
+  {
+    "title": "Valid Palindrome",
+    "difficulty": "Easy",
+    "topic": "Two Pointers, String",
+    "url": "https://leetcode.com/problems/valid-palindrome/"
+  },
+  {
+    "title": "Maximum Subarray",
+    "difficulty": "Medium",
+    "topic": "Array, Dynamic Programming",
+    "url": "https://leetcode.com/problems/maximum-subarray/"
+  },
+  {
+    "title": "Product of Array Except Self",
+    "difficulty": "Medium",
+    "topic": "Array, Prefix Sum",
+    "url": "https://leetcode.com/problems/product-of-array-except-self/"
+  },
+  {
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "topic": "String, Sliding Window",
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+  },
+  {
+    "title": "Group Anagrams",
+    "difficulty": "Medium",
+    "topic": "Hash Map, String",
+    "url": "https://leetcode.com/problems/group-anagrams/"
+  },
+  {
+    "title": "Search in Rotated Sorted Array",
+    "difficulty": "Medium",
+    "topic": "Array, Binary Search",
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+  },
+  {
+    "title": "House Robber",
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "url": "https://leetcode.com/problems/house-robber/"
+  },
+  {
+    "title": "Coin Change",
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "url": "https://leetcode.com/problems/coin-change/"
+  },
+  {
+    "title": "Container With Most Water",
+    "difficulty": "Medium",
+    "topic": "Two Pointers, Greedy",
+    "url": "https://leetcode.com/problems/container-with-most-water/"
+  },
+  {
+    "title": "3Sum",
+    "difficulty": "Medium",
+    "topic": "Array, Two Pointers",
+    "url": "https://leetcode.com/problems/3sum/"
+  },
+  {
+    "title": "Merge Intervals",
+    "difficulty": "Medium",
+    "topic": "Array, Sorting",
+    "url": "https://leetcode.com/problems/merge-intervals/"
+  },
+  {
+    "title": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "topic": "Two Pointers, Stack",
+    "url": "https://leetcode.com/problems/trapping-rain-water/"
+  },
+  {
+    "title": "Sliding Window Maximum",
+    "difficulty": "Hard",
+    "topic": "Queue, Sliding Window",
+    "url": "https://leetcode.com/problems/sliding-window-maximum/"
+  },
+  {
+    "title": "Median of Two Sorted Arrays",
+    "difficulty": "Hard",
+    "topic": "Array, Binary Search",
+    "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+  },
+  {
+    "title": "Merge k Sorted Lists",
+    "difficulty": "Hard",
+    "topic": "Linked List, Heap",
+    "url": "https://leetcode.com/problems/merge-k-sorted-lists/"
+  },
+  {
+    "title": "Longest Valid Parentheses",
+    "difficulty": "Hard",
+    "topic": "Stack, Dynamic Programming",
+    "url": "https://leetcode.com/problems/longest-valid-parentheses/"
+  }
+]

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LeetCode Alarm</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div>
+        <h1>LeetCode Alarm</h1>
+        <p>Daily coding reminder</p>
+      </div>
+      <div class="badge">LC</div>
+    </div>
+
+    <div class="status-card">
+      <p id="alarmStatus">Alarm is not active</p>
+      <small id="nextAlarmText">No alarm scheduled</small>
+    </div>
+
+    <form id="alarmForm">
+      <label for="difficulty">Difficulty</label>
+      <select id="difficulty">
+        <option value="Any">Any</option>
+        <option value="Easy">Easy</option>
+        <option value="Medium">Medium</option>
+        <option value="Hard">Hard</option>
+      </select>
+
+      <label for="alarmType">Alarm Type</label>
+      <select id="alarmType">
+        <option value="daily">Daily</option>
+        <option value="once">One Time</option>
+      </select>
+
+      <div id="dateGroup" class="hidden">
+        <label for="alarmDate">Date</label>
+        <input type="date" id="alarmDate" />
+      </div>
+
+      <label for="alarmTime">Time</label>
+      <input type="time" id="alarmTime" required />
+
+      <label for="snoozeMinutes">Snooze</label>
+      <select id="snoozeMinutes">
+        <option value="5">5 minutes</option>
+        <option value="10">10 minutes</option>
+        <option value="15">15 minutes</option>
+        <option value="30">30 minutes</option>
+      </select>
+
+      <button type="submit" class="primary-btn">Save Alarm</button>
+    </form>
+
+    <div class="button-row">
+      <button id="testAlarmBtn" class="secondary-btn">Test</button>
+      <button id="cancelAlarmBtn" class="danger-btn">Cancel</button>
+    </div>
+
+    <div class="latest-card hidden" id="latestCard">
+      <h2>Last Question</h2>
+      <p id="latestTitle"></p>
+      <small id="latestMeta"></small>
+      <button id="openLatestBtn" class="primary-btn small-btn">
+        Open Problem
+      </button>
+    </div>
+
+    <p id="message"></p>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
